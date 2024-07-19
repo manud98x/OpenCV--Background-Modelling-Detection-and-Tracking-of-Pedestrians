@@ -49,3 +49,13 @@ This task uses a pre-trained MobileNet SSD model to detect pedestrians in a vide
 - Python 3.x
 - OpenCV
 - NumPy
+
+## Usage
+### Running the Code
+- Background Modeling and Object Classification
+  
+```python movingObj.py -b <video_file>```
+
+- Pedestrian Detection and Tracking
+  
+```python movingObj.py -d <video_file>```
